@@ -1,0 +1,159 @@
+.content {
+  position: relative;
+}
+#midisettings {
+  width: 1180px;
+}
+#midisettings .sep {
+  margin: 0 0.3em 0 1.5em;
+  color: #ccc;
+}
+#preset {
+  width: 1190px;
+  margin: 0 auto;
+  color: #aaa;
+  font-size: 0.85em;
+}
+#preset li.selected,
+#preset li:hover {
+  background-color: #e50a00;
+  font-weight: bold;
+  color: #fff;
+}
+#preset li.loaded {
+  font-weight: bold;
+  color: #fff;
+}
+#preset li {
+  box-sizing: border-box;
+  border: 1px solid #666;
+  border-bottom: none;
+  float: left;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 2px;
+  width: 3.333%;
+  cursor: pointer;
+}
+ul.select {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.select::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+main {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1190px;
+  background: #111;
+  border: 1px solid #666;
+  padding: 8px;
+}
+/* 12 columns in three groups of four, like the PC12 front panel */
+#grid,
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 14px repeat(4, 1fr) 14px repeat(4, 1fr);
+  gap: 4px;
+}
+#keys {
+  margin-top: 10px;
+  border-top: 1px solid #444;
+  padding-top: 8px;
+}
+.gap {
+  border-left: 1px solid #555;
+}
+#grid .gap {
+  grid-row: span 6;
+}
+#keys .gap {
+  grid-row: span 2;
+}
+#tb2 {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.ctrl {
+  box-sizing: border-box;
+  background: #eee;
+  color: #000;
+  border: 1px solid #666;
+  font-size: 0.7em;
+  padding: 2px;
+}
+.ctrl .name {
+  background: #090;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 1px;
+  margin: -2px -2px 2px -2px;
+}
+.ctrl.key .name {
+  background: #36c;
+}
+.ctrl.enc .name {
+  background: #960;
+}
+.ctrl.t-note .name { background: #a0a; }
+.ctrl.t-prgchange .name { background: #c70; }
+.ctrl.t-pitchbend .name { background: #c33; }
+.ctrl.t-aftertouch .name { background: #777; }
+.ctrl .row {
+  display: flex;
+  align-items: center;
+  margin: 1px 0;
+}
+.ctrl .row label {
+  width: 2.2em;
+  color: #555;
+}
+.ctrl input[type='number'],
+.ctrl input[type='text'] {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  border: 1px solid #bbb;
+  padding: 1px 2px;
+  font-size: 1.1em;
+  text-align: right;
+}
+.ctrl select {
+  width: 100%;
+  font-size: 1em;
+  margin: 1px 0;
+}
+.ctrl .snap {
+  display: flex;
+  align-items: center;
+  margin: 1px 0;
+}
+.ctrl .snap input {
+  margin: 0 3px 0 0;
+}
+.ctrl.pot select[data-f='num'],
+.ctrl .row.num {
+  display: block;
+}
+/* number field is meaningless for pitchbend / aftertouch */
+.ctrl.t-pitchbend .row.num,
+.ctrl.t-aftertouch .row.num {
+  opacity: 0.35;
+}
+
+#tbbottom {
+  position: static;
+  margin: 10px 0 0 0;
+}
+.credits {
+  width: 800px;
+}

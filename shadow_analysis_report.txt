@@ -1,0 +1,627 @@
+PC12 Shadow LUT analysis
+Offsets: 70
+CC values: 128 (range 0..127)
+
+Offset 0 (o0):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 1 (o1):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 2 (o2):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 3 (o3):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 4 (o4):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 5 (o5):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 6 (o6):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 7 (o7):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 8 (o8):
+  unique values: 2
+  pattern: non constant, monotonic: increasing
+  bit usage: b0=set55/clear73, b1=set55/clear73, b2=set73/clear55, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-54:27; 55-127:28
+
+Offset 9 (o9):
+  unique values: 16
+  pattern: non constant, monotonic: none
+  period: 16
+  bit usage: b0=set64/clear64, b1=set64/clear64, b2=set64/clear64, b3=set64/clear64, b4=always1, b5=always0, b6=always0
+
+Offset 10 (o10):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 11 (o11):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 12 (o12):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 13 (o13):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 14 (o14):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 15 (o15):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 16 (o16):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 17 (o17):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 18 (o18):
+  unique values: 1
+  pattern: constant (28)
+  period: 1
+  affine vs CC: y = (0 * cc + 28) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 28) mod 128
+  bit usage: b0=always0, b1=always0, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:28
+
+Offset 19 (o19):
+  unique values: 1
+  pattern: constant (26)
+  period: 1
+  affine vs CC: y = (0 * cc + 26) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 26) mod 128
+  bit usage: b0=always0, b1=always1, b2=always0, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:26
+
+Offset 20 (o20):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 21 (o21):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 22 (o22):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 23 (o23):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 24 (o24):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 25 (o25):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 26 (o26):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 27 (o27):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 28 (o28):
+  unique values: 1
+  pattern: constant (28)
+  period: 1
+  affine vs CC: y = (0 * cc + 28) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 28) mod 128
+  bit usage: b0=always0, b1=always0, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:28
+
+Offset 29 (o29):
+  unique values: 1
+  pattern: constant (26)
+  period: 1
+  affine vs CC: y = (0 * cc + 26) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 26) mod 128
+  bit usage: b0=always0, b1=always1, b2=always0, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:26
+
+Offset 30 (o30):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 31 (o31):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 32 (o32):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 33 (o33):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 34 (o34):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 35 (o35):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 36 (o36):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 37 (o37):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 38 (o38):
+  unique values: 1
+  pattern: constant (29)
+  period: 1
+  affine vs CC: y = (0 * cc + 29) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 29) mod 128
+  bit usage: b0=always1, b1=always0, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:29
+
+Offset 39 (o39):
+  unique values: 1
+  pattern: constant (26)
+  period: 1
+  affine vs CC: y = (0 * cc + 26) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 26) mod 128
+  bit usage: b0=always0, b1=always1, b2=always0, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:26
+
+Offset 40 (o40):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 41 (o41):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 42 (o42):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 43 (o43):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 44 (o44):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 45 (o45):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 46 (o46):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 47 (o47):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 48 (o48):
+  unique values: 1
+  pattern: constant (30)
+  period: 1
+  affine vs CC: y = (0 * cc + 30) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 30) mod 128
+  bit usage: b0=always0, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:30
+
+Offset 49 (o49):
+  unique values: 1
+  pattern: constant (26)
+  period: 1
+  affine vs CC: y = (0 * cc + 26) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 26) mod 128
+  bit usage: b0=always0, b1=always1, b2=always0, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:26
+
+Offset 50 (o50):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 51 (o51):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 52 (o52):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 53 (o53):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 54 (o54):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 55 (o55):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 56 (o56):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 57 (o57):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 58 (o58):
+  unique values: 1
+  pattern: constant (30)
+  period: 1
+  affine vs CC: y = (0 * cc + 30) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 30) mod 128
+  bit usage: b0=always0, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:30
+
+Offset 59 (o59):
+  unique values: 1
+  pattern: constant (26)
+  period: 1
+  affine vs CC: y = (0 * cc + 26) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 26) mod 128
+  bit usage: b0=always0, b1=always1, b2=always0, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:26
+
+Offset 60 (o60):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 61 (o61):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 62 (o62):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 63 (o63):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 64 (o64):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 65 (o65):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 66 (o66):
+  unique values: 1
+  pattern: constant (47)
+  period: 1
+  affine vs CC: y = (0 * cc + 47) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 47) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always0, b5=always1, b6=always0
+  runs (cc_start-cc_end:value): 0-127:47
+
+Offset 67 (o67):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 68 (o68):
+  unique values: 1
+  pattern: constant (31)
+  period: 1
+  affine vs CC: y = (0 * cc + 31) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 31) mod 128
+  bit usage: b0=always1, b1=always1, b2=always1, b3=always1, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:31
+
+Offset 69 (o69):
+  unique values: 1
+  pattern: constant (22)
+  period: 1
+  affine vs CC: y = (0 * cc + 22) mod 128
+  affine vs encode_cc(cc): y = (0 * enc + 22) mod 128
+  bit usage: b0=always0, b1=always1, b2=always1, b3=always0, b4=always1, b5=always0, b6=always0
+  runs (cc_start-cc_end:value): 0-127:22

@@ -1,0 +1,1692 @@
+Loaded baseline Baseline_Ch1.syx with 1892 bytes
+Found CC variant files for CC values: [1, 2, 3, 4, 11, 12, 13, 14, 71, 72, 73, 74, 121, 122, 123, 124]
+
+Offsets that change for every CC file: count=70
+[203, 204, 206, 207, 209, 210, 212, 213, 216, 219, 437, 438, 440, 441, 443, 444, 446, 447, 450, 453, 671, 672, 674, 675, 677, 678, 680, 681, 684, 687, 905, 906, 908, 909, 911, 912, 914, 915, 918, 921, 1139, 1140, 1142, 1143, 1145, 1146, 1148, 1149, 1152, 1155, 1373, 1374, 1376, 1377, 1379, 1380, 1382, 1383, 1386, 1389, 1607, 1608, 1610, 1611, 1613, 1614, 1616, 1617, 1620, 1623]
+
+Main CC offset candidates: []
+
+Shadow offsets (count=70):
+[203, 204, 206, 207, 209, 210, 212, 213, 216, 219, 437, 438, 440, 441, 443, 444, 446, 447, 450, 453, 671, 672, 674, 675, 677, 678, 680, 681, 684, 687, 905, 906, 908, 909, 911, 912, 914, 915, 918, 921, 1139, 1140, 1142, 1143, 1145, 1146, 1148, 1149, 1152, 1155, 1373, 1374, 1376, 1377, 1379, 1380, 1382, 1383, 1386, 1389, 1607, 1608, 1610, 1611, 1613, 1614, 1616, 1617, 1620, 1623]
+
+=== Shadow offset analysis ===
+
+Offset 203 (0x00CB):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 204 (0x00CC):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 206 (0x00CE):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 207 (0x00CF):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 209 (0x00D1):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 210 (0x00D2):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 212 (0x00D4):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 213 (0x00D5):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 216 (0x00D8):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1B (hi=1, lo=B)
+    CC   2 -> 0x1B (hi=1, lo=B)
+    CC   3 -> 0x1B (hi=1, lo=B)
+    CC   4 -> 0x1B (hi=1, lo=B)
+    CC  11 -> 0x1B (hi=1, lo=B)
+    CC  12 -> 0x1B (hi=1, lo=B)
+    CC  13 -> 0x1B (hi=1, lo=B)
+    CC  14 -> 0x1B (hi=1, lo=B)
+    CC  71 -> 0x1C (hi=1, lo=C)
+    CC  72 -> 0x1C (hi=1, lo=C)
+    CC  73 -> 0x1C (hi=1, lo=C)
+    CC  74 -> 0x1C (hi=1, lo=C)
+    CC 121 -> 0x1C (hi=1, lo=C)
+    CC 122 -> 0x1C (hi=1, lo=C)
+    CC 123 -> 0x1C (hi=1, lo=C)
+    CC 124 -> 0x1C (hi=1, lo=C)
+  No whole-byte affine fit
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble unique: [11, 12]
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0, 1]
+
+Offset 219 (0x00DB):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1A (hi=1, lo=A)
+    CC   2 -> 0x1B (hi=1, lo=B)
+    CC   3 -> 0x1C (hi=1, lo=C)
+    CC   4 -> 0x1D (hi=1, lo=D)
+    CC  11 -> 0x14 (hi=1, lo=4)
+    CC  12 -> 0x15 (hi=1, lo=5)
+    CC  13 -> 0x16 (hi=1, lo=6)
+    CC  14 -> 0x17 (hi=1, lo=7)
+    CC  71 -> 0x10 (hi=1, lo=0)
+    CC  72 -> 0x11 (hi=1, lo=1)
+    CC  73 -> 0x12 (hi=1, lo=2)
+    CC  74 -> 0x13 (hi=1, lo=3)
+    CC 121 -> 0x12 (hi=1, lo=2)
+    CC 122 -> 0x13 (hi=1, lo=3)
+    CC 123 -> 0x14 (hi=1, lo=4)
+    CC 124 -> 0x15 (hi=1, lo=5)
+  No whole-byte affine fit
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble unique: [0, 1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13]
+  Deltas: [1, 1, 1, -9, 1, 1, 1, -7, 1, 1, 1, -1, 1, 1, 1]
+  Unique deltas: [-9, -7, -1, 1]
+
+Offset 437 (0x01B5):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 438 (0x01B6):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 440 (0x01B8):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 441 (0x01B9):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 443 (0x01BB):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 444 (0x01BC):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 446 (0x01BE):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 447 (0x01BF):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 450 (0x01C2):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1C (hi=1, lo=C)
+    CC   2 -> 0x1C (hi=1, lo=C)
+    CC   3 -> 0x1C (hi=1, lo=C)
+    CC   4 -> 0x1C (hi=1, lo=C)
+    CC  11 -> 0x1C (hi=1, lo=C)
+    CC  12 -> 0x1C (hi=1, lo=C)
+    CC  13 -> 0x1C (hi=1, lo=C)
+    CC  14 -> 0x1C (hi=1, lo=C)
+    CC  71 -> 0x1C (hi=1, lo=C)
+    CC  72 -> 0x1C (hi=1, lo=C)
+    CC  73 -> 0x1C (hi=1, lo=C)
+    CC  74 -> 0x1C (hi=1, lo=C)
+    CC 121 -> 0x1C (hi=1, lo=C)
+    CC 122 -> 0x1C (hi=1, lo=C)
+    CC 123 -> 0x1C (hi=1, lo=C)
+    CC 124 -> 0x1C (hi=1, lo=C)
+  Whole-byte affine fit: byte = 0 * CC + 28
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 12
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 453 (0x01C5):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1A (hi=1, lo=A)
+    CC   2 -> 0x1A (hi=1, lo=A)
+    CC   3 -> 0x1A (hi=1, lo=A)
+    CC   4 -> 0x1A (hi=1, lo=A)
+    CC  11 -> 0x1A (hi=1, lo=A)
+    CC  12 -> 0x1A (hi=1, lo=A)
+    CC  13 -> 0x1A (hi=1, lo=A)
+    CC  14 -> 0x1A (hi=1, lo=A)
+    CC  71 -> 0x1A (hi=1, lo=A)
+    CC  72 -> 0x1A (hi=1, lo=A)
+    CC  73 -> 0x1A (hi=1, lo=A)
+    CC  74 -> 0x1A (hi=1, lo=A)
+    CC 121 -> 0x1A (hi=1, lo=A)
+    CC 122 -> 0x1A (hi=1, lo=A)
+    CC 123 -> 0x1A (hi=1, lo=A)
+    CC 124 -> 0x1A (hi=1, lo=A)
+  Whole-byte affine fit: byte = 0 * CC + 26
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 10
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 671 (0x029F):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 672 (0x02A0):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 674 (0x02A2):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 675 (0x02A3):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 677 (0x02A5):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 678 (0x02A6):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 680 (0x02A8):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 681 (0x02A9):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 684 (0x02AC):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1C (hi=1, lo=C)
+    CC   2 -> 0x1C (hi=1, lo=C)
+    CC   3 -> 0x1C (hi=1, lo=C)
+    CC   4 -> 0x1C (hi=1, lo=C)
+    CC  11 -> 0x1C (hi=1, lo=C)
+    CC  12 -> 0x1C (hi=1, lo=C)
+    CC  13 -> 0x1C (hi=1, lo=C)
+    CC  14 -> 0x1C (hi=1, lo=C)
+    CC  71 -> 0x1C (hi=1, lo=C)
+    CC  72 -> 0x1C (hi=1, lo=C)
+    CC  73 -> 0x1C (hi=1, lo=C)
+    CC  74 -> 0x1C (hi=1, lo=C)
+    CC 121 -> 0x1C (hi=1, lo=C)
+    CC 122 -> 0x1C (hi=1, lo=C)
+    CC 123 -> 0x1C (hi=1, lo=C)
+    CC 124 -> 0x1C (hi=1, lo=C)
+  Whole-byte affine fit: byte = 0 * CC + 28
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 12
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 687 (0x02AF):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1A (hi=1, lo=A)
+    CC   2 -> 0x1A (hi=1, lo=A)
+    CC   3 -> 0x1A (hi=1, lo=A)
+    CC   4 -> 0x1A (hi=1, lo=A)
+    CC  11 -> 0x1A (hi=1, lo=A)
+    CC  12 -> 0x1A (hi=1, lo=A)
+    CC  13 -> 0x1A (hi=1, lo=A)
+    CC  14 -> 0x1A (hi=1, lo=A)
+    CC  71 -> 0x1A (hi=1, lo=A)
+    CC  72 -> 0x1A (hi=1, lo=A)
+    CC  73 -> 0x1A (hi=1, lo=A)
+    CC  74 -> 0x1A (hi=1, lo=A)
+    CC 121 -> 0x1A (hi=1, lo=A)
+    CC 122 -> 0x1A (hi=1, lo=A)
+    CC 123 -> 0x1A (hi=1, lo=A)
+    CC 124 -> 0x1A (hi=1, lo=A)
+  Whole-byte affine fit: byte = 0 * CC + 26
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 10
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 905 (0x0389):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 906 (0x038A):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 908 (0x038C):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 909 (0x038D):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 911 (0x038F):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 912 (0x0390):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 914 (0x0392):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 915 (0x0393):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 918 (0x0396):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1D (hi=1, lo=D)
+    CC   2 -> 0x1D (hi=1, lo=D)
+    CC   3 -> 0x1D (hi=1, lo=D)
+    CC   4 -> 0x1D (hi=1, lo=D)
+    CC  11 -> 0x1D (hi=1, lo=D)
+    CC  12 -> 0x1D (hi=1, lo=D)
+    CC  13 -> 0x1D (hi=1, lo=D)
+    CC  14 -> 0x1D (hi=1, lo=D)
+    CC  71 -> 0x1D (hi=1, lo=D)
+    CC  72 -> 0x1D (hi=1, lo=D)
+    CC  73 -> 0x1D (hi=1, lo=D)
+    CC  74 -> 0x1D (hi=1, lo=D)
+    CC 121 -> 0x1D (hi=1, lo=D)
+    CC 122 -> 0x1D (hi=1, lo=D)
+    CC 123 -> 0x1D (hi=1, lo=D)
+    CC 124 -> 0x1D (hi=1, lo=D)
+  Whole-byte affine fit: byte = 0 * CC + 29
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 13
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 921 (0x0399):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1A (hi=1, lo=A)
+    CC   2 -> 0x1A (hi=1, lo=A)
+    CC   3 -> 0x1A (hi=1, lo=A)
+    CC   4 -> 0x1A (hi=1, lo=A)
+    CC  11 -> 0x1A (hi=1, lo=A)
+    CC  12 -> 0x1A (hi=1, lo=A)
+    CC  13 -> 0x1A (hi=1, lo=A)
+    CC  14 -> 0x1A (hi=1, lo=A)
+    CC  71 -> 0x1A (hi=1, lo=A)
+    CC  72 -> 0x1A (hi=1, lo=A)
+    CC  73 -> 0x1A (hi=1, lo=A)
+    CC  74 -> 0x1A (hi=1, lo=A)
+    CC 121 -> 0x1A (hi=1, lo=A)
+    CC 122 -> 0x1A (hi=1, lo=A)
+    CC 123 -> 0x1A (hi=1, lo=A)
+    CC 124 -> 0x1A (hi=1, lo=A)
+  Whole-byte affine fit: byte = 0 * CC + 26
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 10
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1139 (0x0473):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1140 (0x0474):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1142 (0x0476):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1143 (0x0477):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1145 (0x0479):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1146 (0x047A):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1148 (0x047C):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1149 (0x047D):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1152 (0x0480):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1E (hi=1, lo=E)
+    CC   2 -> 0x1E (hi=1, lo=E)
+    CC   3 -> 0x1E (hi=1, lo=E)
+    CC   4 -> 0x1E (hi=1, lo=E)
+    CC  11 -> 0x1E (hi=1, lo=E)
+    CC  12 -> 0x1E (hi=1, lo=E)
+    CC  13 -> 0x1E (hi=1, lo=E)
+    CC  14 -> 0x1E (hi=1, lo=E)
+    CC  71 -> 0x1E (hi=1, lo=E)
+    CC  72 -> 0x1E (hi=1, lo=E)
+    CC  73 -> 0x1E (hi=1, lo=E)
+    CC  74 -> 0x1E (hi=1, lo=E)
+    CC 121 -> 0x1E (hi=1, lo=E)
+    CC 122 -> 0x1E (hi=1, lo=E)
+    CC 123 -> 0x1E (hi=1, lo=E)
+    CC 124 -> 0x1E (hi=1, lo=E)
+  Whole-byte affine fit: byte = 0 * CC + 30
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 14
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1155 (0x0483):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1A (hi=1, lo=A)
+    CC   2 -> 0x1A (hi=1, lo=A)
+    CC   3 -> 0x1A (hi=1, lo=A)
+    CC   4 -> 0x1A (hi=1, lo=A)
+    CC  11 -> 0x1A (hi=1, lo=A)
+    CC  12 -> 0x1A (hi=1, lo=A)
+    CC  13 -> 0x1A (hi=1, lo=A)
+    CC  14 -> 0x1A (hi=1, lo=A)
+    CC  71 -> 0x1A (hi=1, lo=A)
+    CC  72 -> 0x1A (hi=1, lo=A)
+    CC  73 -> 0x1A (hi=1, lo=A)
+    CC  74 -> 0x1A (hi=1, lo=A)
+    CC 121 -> 0x1A (hi=1, lo=A)
+    CC 122 -> 0x1A (hi=1, lo=A)
+    CC 123 -> 0x1A (hi=1, lo=A)
+    CC 124 -> 0x1A (hi=1, lo=A)
+  Whole-byte affine fit: byte = 0 * CC + 26
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 10
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1373 (0x055D):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1374 (0x055E):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1376 (0x0560):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1377 (0x0561):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1379 (0x0563):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1380 (0x0564):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1382 (0x0566):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1383 (0x0567):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1386 (0x056A):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1E (hi=1, lo=E)
+    CC   2 -> 0x1E (hi=1, lo=E)
+    CC   3 -> 0x1E (hi=1, lo=E)
+    CC   4 -> 0x1E (hi=1, lo=E)
+    CC  11 -> 0x1E (hi=1, lo=E)
+    CC  12 -> 0x1E (hi=1, lo=E)
+    CC  13 -> 0x1E (hi=1, lo=E)
+    CC  14 -> 0x1E (hi=1, lo=E)
+    CC  71 -> 0x1E (hi=1, lo=E)
+    CC  72 -> 0x1E (hi=1, lo=E)
+    CC  73 -> 0x1E (hi=1, lo=E)
+    CC  74 -> 0x1E (hi=1, lo=E)
+    CC 121 -> 0x1E (hi=1, lo=E)
+    CC 122 -> 0x1E (hi=1, lo=E)
+    CC 123 -> 0x1E (hi=1, lo=E)
+    CC 124 -> 0x1E (hi=1, lo=E)
+  Whole-byte affine fit: byte = 0 * CC + 30
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 14
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1389 (0x056D):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1A (hi=1, lo=A)
+    CC   2 -> 0x1A (hi=1, lo=A)
+    CC   3 -> 0x1A (hi=1, lo=A)
+    CC   4 -> 0x1A (hi=1, lo=A)
+    CC  11 -> 0x1A (hi=1, lo=A)
+    CC  12 -> 0x1A (hi=1, lo=A)
+    CC  13 -> 0x1A (hi=1, lo=A)
+    CC  14 -> 0x1A (hi=1, lo=A)
+    CC  71 -> 0x1A (hi=1, lo=A)
+    CC  72 -> 0x1A (hi=1, lo=A)
+    CC  73 -> 0x1A (hi=1, lo=A)
+    CC  74 -> 0x1A (hi=1, lo=A)
+    CC 121 -> 0x1A (hi=1, lo=A)
+    CC 122 -> 0x1A (hi=1, lo=A)
+    CC 123 -> 0x1A (hi=1, lo=A)
+    CC 124 -> 0x1A (hi=1, lo=A)
+  Whole-byte affine fit: byte = 0 * CC + 26
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 10
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1607 (0x0647):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1608 (0x0648):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1610 (0x064A):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1611 (0x064B):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1613 (0x064D):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1614 (0x064E):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1616 (0x0650):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x2F (hi=2, lo=F)
+    CC   2 -> 0x2F (hi=2, lo=F)
+    CC   3 -> 0x2F (hi=2, lo=F)
+    CC   4 -> 0x2F (hi=2, lo=F)
+    CC  11 -> 0x2F (hi=2, lo=F)
+    CC  12 -> 0x2F (hi=2, lo=F)
+    CC  13 -> 0x2F (hi=2, lo=F)
+    CC  14 -> 0x2F (hi=2, lo=F)
+    CC  71 -> 0x2F (hi=2, lo=F)
+    CC  72 -> 0x2F (hi=2, lo=F)
+    CC  73 -> 0x2F (hi=2, lo=F)
+    CC  74 -> 0x2F (hi=2, lo=F)
+    CC 121 -> 0x2F (hi=2, lo=F)
+    CC 122 -> 0x2F (hi=2, lo=F)
+    CC 123 -> 0x2F (hi=2, lo=F)
+    CC 124 -> 0x2F (hi=2, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 47
+  High nibble affine fit: hi = 0 * CC + 2
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1617 (0x0651):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1620 (0x0654):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x1F (hi=1, lo=F)
+    CC   2 -> 0x1F (hi=1, lo=F)
+    CC   3 -> 0x1F (hi=1, lo=F)
+    CC   4 -> 0x1F (hi=1, lo=F)
+    CC  11 -> 0x1F (hi=1, lo=F)
+    CC  12 -> 0x1F (hi=1, lo=F)
+    CC  13 -> 0x1F (hi=1, lo=F)
+    CC  14 -> 0x1F (hi=1, lo=F)
+    CC  71 -> 0x1F (hi=1, lo=F)
+    CC  72 -> 0x1F (hi=1, lo=F)
+    CC  73 -> 0x1F (hi=1, lo=F)
+    CC  74 -> 0x1F (hi=1, lo=F)
+    CC 121 -> 0x1F (hi=1, lo=F)
+    CC 122 -> 0x1F (hi=1, lo=F)
+    CC 123 -> 0x1F (hi=1, lo=F)
+    CC 124 -> 0x1F (hi=1, lo=F)
+  Whole-byte affine fit: byte = 0 * CC + 31
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 15
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]
+
+Offset 1623 (0x0657):
+  Raw mapping CC -> byte:
+    CC   1 -> 0x16 (hi=1, lo=6)
+    CC   2 -> 0x16 (hi=1, lo=6)
+    CC   3 -> 0x16 (hi=1, lo=6)
+    CC   4 -> 0x16 (hi=1, lo=6)
+    CC  11 -> 0x16 (hi=1, lo=6)
+    CC  12 -> 0x16 (hi=1, lo=6)
+    CC  13 -> 0x16 (hi=1, lo=6)
+    CC  14 -> 0x16 (hi=1, lo=6)
+    CC  71 -> 0x16 (hi=1, lo=6)
+    CC  72 -> 0x16 (hi=1, lo=6)
+    CC  73 -> 0x16 (hi=1, lo=6)
+    CC  74 -> 0x16 (hi=1, lo=6)
+    CC 121 -> 0x16 (hi=1, lo=6)
+    CC 122 -> 0x16 (hi=1, lo=6)
+    CC 123 -> 0x16 (hi=1, lo=6)
+    CC 124 -> 0x16 (hi=1, lo=6)
+  Whole-byte affine fit: byte = 0 * CC + 22
+  High nibble affine fit: hi = 0 * CC + 1
+  Low nibble affine fit: lo = 0 * CC + 6
+  Deltas: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  Unique deltas: [0]

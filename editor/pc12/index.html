@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faderfox PC12 Editor</title>
+    <meta name="description" content="Web-MIDI Editor to configure the Faderfox PC12 pot controller.">
+    <link rel="stylesheet" href="../lib/base.css?v=1.0">
+    <link rel="stylesheet" href="styles.css?v=1.0">
+    <script src="../lib/strings.js?v=1.0"></script>
+    <script src="../lib/download.js?v=1.0"></script>
+    <script src="../lib/base.js?v=1.1"></script>
+    <script src="pc12.js?v=1.0"></script>
+    <script>if (location.protocol!=='https:' && location.protocol!=='file:' && location.hostname!='localhost' && location.hostname!='127.0.0.1') {location.href = 'https:' + window.location.href.substring(window.location.protocol.length);}</script>
+</head>
+<body>
+    <h1>Faderfox PC12 Editor</h1>
+    <div id="midisettings" title="Select the MIDI interface your PC12 is connected to for input and output.">
+        <div class="field">
+            <label for="midiInDeviceId">MIDI Input:</label>
+            <select id="midiInDeviceId"><option>(No devices)</option></select>
+        </div>
+        <div class="field" style="margin-left:.5em;">
+            <label for="midiOutDeviceId">MIDI Output:</label>
+            <select id="midiOutDeviceId"><option>(No devices)</option></select>
+        </div>
+        <div id="tb">
+            <button type="button" id="btnreceive">Receive from PC12</button>
+            <button type="button" id="btnsend">Send setup to PC12</button>
+            <button type="button" id="btnsendall">Send all setups</button>
+        </div>
+        <div id="tb2">
+            <button type="button" id="btnfileload">Open file (.syx .json .csv)</button>
+            <input type="file" id="fileinput" accept=".syx,.json,.csv" style="display:none">
+            <span class="sep">Save:</span>
+            <button type="button" id="btnsavesyx">setup .syx</button>
+            <button type="button" id="btnsaveallsyx">all .syx</button>
+            <button type="button" id="btnjson">setup .json</button>
+            <button type="button" id="btnjsonall">all .json</button>
+            <button type="button" id="btncsv">all .csv</button>
+        </div>
+    </div>
+    <div class="content">
+        <div id="preset">
+            Setup to edit (bold = loaded or edited):
+            <ul class="select" id="setups"></ul>
+        </div>
+        <main>
+            <div id="grid"></div>
+            <div id="keys"></div>
+        </main>
+        <div id="tbbottom">
+            <button type="button" id="btnallchannels">Set all channels</button>
+            <button type="button" id="btncopy">Copy setup</button>
+            <button type="button" id="btnpaste">Paste setup</button>
+            <button type="button" id="btnfactory">Reset setup to factory</button>
+            <button type="button" id="btnforget">Forget all (clear browser storage)</button>
+        </div>
+    </div>
+    <div class="credits">
+        Web-MIDI editor for the <a href="https://faderfox.de/pc12.html">Faderfox PC12</a>.
+        Built on the PC4 editor by Peter Witzel (<a href="https://github.com/privatepublic-de/faderfox-editor">faderfox-editor</a>, MIT)
+        via the <a href="https://github.com/lsim/faderfox-editor">lsim fork</a>.
+        Sysex format notes and a command line tool live in <code>pc12.py</code> next to this folder.
+        <p class="privacydeclaration"><b>Privacy:</b> everything stays in this browser. Setups are kept in localStorage so a reload does not lose them.</p>
+    </div>
+</body>
+</html>
